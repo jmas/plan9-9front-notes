@@ -1,4 +1,6 @@
-# Q&A
+# Installation Plan 9 / 9 Front on Asus Eee PC 1001px
+
+## Q&A
 
 Q: [9front install on Asus Eee PC x101ch](https://www.reddit.com/r/plan9/comments/m8d2iu/comment/grkwrcc/)
 ```
