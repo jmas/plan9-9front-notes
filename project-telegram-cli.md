@@ -1,4 +1,4 @@
-# Project: CLI Telegram client for Plan 9 / 9 Front
+# Project for Plan 9 / 9 Front: CLI Telegram client
 
 1. Create an app via link: [my.telegram.org/apps](https://my.telegram.org/apps)
 2. Init Go project `go mod init go-tg-client`
