@@ -7,7 +7,7 @@
 5. Install deps `go mod tidy`
 6. Run `go run main.go`
 
-```
+```go
 package main
 
 import (
