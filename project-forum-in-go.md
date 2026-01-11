@@ -1,0 +1,3 @@
+# Project for Plan 9 / 9front: Forum written in Go
+
+Forum that written in Go that sould looks good from UI/UX perspective for Plan 9 / 9front users. I love forums. I love to chatting using [disqus.com](https://disqus.com) comments system. Ideal example of UI/UX is [forum at itch.io](https://itch.io/community). So I need to make similar forum that sould looks not like shit in popular 9front browsers. Also it would be great if it will be freandly for Search Engines and AI parsers. Just because we need to make it useful for modern people. Also it would be great if it uses accessibilities standards.
