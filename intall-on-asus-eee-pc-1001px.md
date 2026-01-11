@@ -1,4 +1,4 @@
-# Installation Plan 9 / 9 Front on Asus Eee PC 1001px
+# Installation Plan 9 / 9front on Asus Eee PC 1001px
 
 ## Q&A
 
