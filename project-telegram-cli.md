@@ -1,4 +1,12 @@
-# Project for Plan 9 / 9 Front: CLI Telegram client
+# Project for Plan 9 / 9front: CLI Telegram client
+
+I love to chat with friends with Telegram. I know that we have IRC, but TG is modern way of communication. So I need to have ability to check new messages or write quick response to Telegram.
+
+I found that we have working telegram library written on Go [gotd/td](https://github.com/gotd/td). So I tested it on my Mac and it's working. I worote small CLI program using Gemini, lets say PoC. Main question is it able to compile and run on Plan9 / 9front? I'm waiting for Asus Eee PC 1000px for 9front installation. When I get it and put 9front on it I'll first of all compile this code. It will be surprise for me if it runs well.
+
+I have thought about how to use this CLI client. I need to research how 9front's IRQ CLI client is working and steal CLI interface from it. For example, I could run `tgc -L` for get list of chats. Then run `tgc -C <ID of Chat>` for list latest messages from the chat. Then if I want to send message to chat I can write `echo "New message" > tgc -C <ID of Chat>` and message will be sent to the chat. Also we should able to run `tgc -I` in interactive mode: I select chat, then see updates, send message or back to chat list. Auth will be triggered by `tgc -A` and it will create or update `session.json` file.
+
+## Build instructions
 
 1. Create an app via link: [my.telegram.org/apps](https://my.telegram.org/apps)
 2. Init Go project `go mod init go-tg-client`
@@ -6,6 +14,8 @@
 4. Put source to `main.go`
 5. Install deps `go mod tidy`
 6. Run `go run main.go`
+
+## Code
 
 ```go
 package main
