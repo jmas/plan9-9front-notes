@@ -6,4 +6,4 @@ I should be able to run this forum on 9front for development and also it should 
 
 ## References
 
-- [My discovery with Gemini](https://gemini.google.com/share/fe991cef1c40)
+- [My discovery about implementation forum in Go with Gemini](https://gemini.google.com/share/fe991cef1c40)
