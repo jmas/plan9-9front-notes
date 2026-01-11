@@ -2,7 +2,7 @@
 
 I love to chat with friends using Telegram. I know that we have IRC, but TG is modern way of communication and all my contacts are there. So I need to have ability to check updates or send message to Telegram. Also it cold be helpful for Telegram automation.
 
-I found that we have working telegram library written on Go [gotd/td](https://github.com/gotd/td). So I tested it on my Mac and it's working. I worote small CLI program using Gemini, lets say PoC. Main question is it able to compile and run on Plan9 / 9front? I'm waiting for Asus Eee PC 1000px for 9front installation. When I get it and put 9front on it I'll first of all compile this code. It will be surprise for me if it runs well.
+I found that we have working telegram library written in Go [gotd/td](https://github.com/gotd/td). So I tested it on my Mac and it's working. I worote small CLI program using Gemini, lets say PoC. Main question is it able to compile and run on Plan9 / 9front? I'm waiting for Asus Eee PC 1000px for 9front installation. When I get it and put 9front on it I'll first of all compile this code. It will be surprise for me if it runs well.
 
 I have thought about how to use this CLI client. I need to research how 9front's IRQ CLI client is working and steal CLI interface from it. For example, I could run `tgc -L` for get list of chats. Then run `tgc -C <ID of Chat>` for list latest messages from the chat. Then if I want to send message to chat I can write `echo "New message" > tgc -C <ID of Chat>` and message will be sent to the chat. Also we should able to run `tgc -I` in interactive mode: I select chat, then see updates, send message or back to chat list. Auth will be triggered by `tgc -A` and it will create or update `session.json` file.
 
