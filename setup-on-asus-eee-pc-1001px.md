@@ -1,4 +1,4 @@
-# Installation Plan 9 / 9front on Asus Eee PC 1001px
+# Setup Plan 9 / 9front on Asus Eee PC 1001px
 
 ## References
 - [Hardware section Q&A 9front](https://fqa.9front.org/fqa3.html#3.2)
