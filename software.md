@@ -1,8 +1,10 @@
 # Software for Plan 9 / 9front
 
-Media:
+## Media
+
 - [Zuke audio player](https://man.9front.org/1/zuke)
 
-Info:
+## Info / Notifications
 - [bar](https://man.9front.org/1/bar)
 - `stats`
+- [statusbar](https://man.9front.org/8/statusbar)
