@@ -1,6 +1,6 @@
 # Project for Plan 9 / 9front: CLI Telegram client
 
-I love to chat with friends using Telegram. I know that we have IRC, but TG is modern way of communication. So I need to have ability to check new messages or write quick response to Telegram.
+I love to chat with friends using Telegram. I know that we have IRC, but TG is modern way of communication and all my contacts are there. So I need to have ability to check new messages or write quick response to Telegram.
 
 I found that we have working telegram library written on Go [gotd/td](https://github.com/gotd/td). So I tested it on my Mac and it's working. I worote small CLI program using Gemini, lets say PoC. Main question is it able to compile and run on Plan9 / 9front? I'm waiting for Asus Eee PC 1000px for 9front installation. When I get it and put 9front on it I'll first of all compile this code. It will be surprise for me if it runs well.
 
