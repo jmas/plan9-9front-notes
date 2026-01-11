@@ -1,4 +1,4 @@
-# Project for Plan 9 / 9 Front: Modern UI
+# Project for Plan 9 / 9front: Modern UI
 
 Aim to provide modern-ish look and feel theme for 9 Front. I need a new cursor and nice looking window!
 
